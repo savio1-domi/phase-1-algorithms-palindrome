@@ -16,19 +16,6 @@ function isPalindrome(word) {
     return false;
   }
 }
-/* 
-  Add your pseudocode here
-  if the reversed string is the same as the input
-    return true
-  else
-    return false*/
-/*
-reverse the input string
-/*
-  Add written explanation of your solution here
-  first: I will split the word and reverse it, saving it in a variable called reverseWordArr
-  second: I will join reverseWordArr and save it in a variable called reversedWord
-*/
 
 // You can run `node index.js` to view these console logs
 if (require.main === module) {
